@@ -1,0 +1,49 @@
+body {
+    background-image: url("img/1.jpg");
+    background-color: #cccccc;
+}
+
+.replay {
+    padding: 5px;
+}
+
+.message {
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
+    animation-play-state: running;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 580px;
+}
