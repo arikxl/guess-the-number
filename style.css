@@ -27,9 +27,10 @@ input {
     font-size: 20px;
     padding: 10px;
     text-align: center;
-    margin-left: 40%;
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
+    left: 39%;
 }
 
 button {
@@ -45,5 +46,7 @@ button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    margin-left: 580px;
+    position: relative;
+    left: 45%;
+
 }
